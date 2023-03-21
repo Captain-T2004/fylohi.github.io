@@ -1,0 +1,184 @@
+a:link {
+    color: rgb(227, 231, 227);
+    background-color: transparent;
+    text-decoration: none;
+  }
+body{
+    background-color: rgb(2, 5, 41)
+}
+.row1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.column1{
+    flex:60%;
+}
+.column2{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex:0%;
+}
+.c1{
+    flex:30%;
+}
+.c2{
+    flex:20%;
+}
+.c3{
+    flex:20%;
+}
+#i1{
+    margin-top: 30px;
+    margin-left:50px;
+}
+.row2{
+    margin-top: 100px;
+    /* background-image:url("http://127.0.0.1:5500/images/bg-curvy-desktop.png"); */
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-left: 30%;
+    max-width: 820px;
+}
+.row3{
+    /* background-image:url("http://127.0.0.1:5500/images/bg-curvy-desktop.png"); */
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    /* margin-left: 30%;
+    max-width: 820px; */
+}
+#new1{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px ;
+    background-color: rgb(0, 255, 179);
+    font-size: large;
+    transition: transform 0.4s;
+    color: rgb(0, 0, 0);;
+    width:150px;
+    height:40px
+}
+#new1:hover{
+    transform: scale(1.1);
+}
+.row4{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row5{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row6{
+    display: flex;
+    margin-top:6%;
+    margin-left: 10%;
+}
+.c6{
+    margin-top: 5%;
+    margin-left: 12%;
+    text-align: left;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+#newlink{
+    text-underline-position: below;
+    color: rgb(9, 241, 179);
+}
+#aroow{
+    border-bottom: 2px;
+    width: 20px;
+    height: 20px;
+}
+.row7{
+    display: flex;
+    justify-content:space-evenly;
+    background-image:url(/images/bg-quotes.png);
+    background-repeat: no-repeat;
+}
+.identical3{
+    background-color: rgb(49, 52, 71);
+    border-radius: 3px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 10%;
+}
+#profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+#i32{
+    margin-right: 5%;
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+}
+.pimages{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.insideofrow8{
+    margin-left:30%;
+    font-family: 'Courier New', Courier, monospace;
+    width: 800px;
+    text-align: center;
+    height:300px;
+    color: aliceblue;
+    background-color: rgb(6, 22, 80);
+    border-radius: 15px;
+}
+#getstar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: aliceblue;
+    border-radius: 30px;
+    background-color: rgb(0, 191, 255);
+    width: 220px;
+    height: 50px;
+    transition: transform 0.3s;
+    font-weight: bold;
+}
+#textinp{
+    text-align: center;
+    border-radius: 30px;
+    height: 50px;
+    width: 350px;
+    font-weight: bold;
+}
+#getstar:hover{
+    transform: scale(105%);
+}
+.lastrow{
+    display: flex;
+    margin-top: 20px;
+}
+.linker{
+    display: flex;
+    margin-left: 80%;
+    margin-top: 3%;
+    text-align: right;
+    color: aliceblue;
+}
+.iconimag{
+    margin-right: 20px;
+    width: 20px;
+    height: 16px;
+}
